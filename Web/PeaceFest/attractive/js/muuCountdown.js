@@ -5,7 +5,8 @@
  *  http://muuteam.com
  */
 
-var eventDate = new Date(year, month-1, day, hour, minute, second);
+/*var eventDate = new Date(year, month - 1, day, hour, minute, second);*/
+var eventDate = new Date('2018-4-15');
 
 setInterval(function(){
 	var currentDate = new Date().getTime();
