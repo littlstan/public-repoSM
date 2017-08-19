@@ -66,7 +66,7 @@
 		======================================*/
 		
 		//Image Background 
-		$(".image-background").backstretch("images/image-bg.jpg");
+        $(".image-background").backstretch("images/101879430.jpg");
 		
 		
 		

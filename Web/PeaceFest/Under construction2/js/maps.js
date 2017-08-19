@@ -1,8 +1,8 @@
 // Replace with your coordinates
 // -----------------------------------
 
-var latitude = 40.7127840;
-	longitude = -74.0059410;
+var latitude = 33.3471108;
+longitude = -112.0871604;
 	
 // -----------------------------------
 var myMap = (function(a,b,c){
@@ -40,7 +40,7 @@ var myMap = (function(a,b,c){
 	// to the map type control.
 	mapOptions = {
 		zoom: 11,
-		scrollwheel: false,
+		scrollwheel: true,
 		center: new google.maps.LatLng( lat, lng ),
 		streetViewControl: true,
 		zoomControl: true,
